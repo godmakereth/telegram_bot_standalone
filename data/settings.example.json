@@ -1,0 +1,15 @@
+{
+  "timezone": "Asia/Taipei",
+  "log_level": "INFO",
+  "max_log_files": 10,
+  "backup_retention_days": 30,
+  "api_rate_limit": {
+    "messages_per_second": 1,
+    "messages_per_minute": 20
+  },
+  "api_config": {
+    "api_id": "YOUR_API_ID",
+    "api_hash": "YOUR_API_HASH",
+    "phone": "+YOUR_PHONE_NUMBER"
+  }
+}

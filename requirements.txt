@@ -1,4 +1,43 @@
-telethon==1.36.0
-schedule==1.2.0
-python-dotenv==1.0.0
-pytz==2024.1
+# Telegram廣播機器人依賴包
+
+# Telegram客戶端
+telethon>=1.34.0
+
+# 系統監控
+psutil>=5.9.0
+
+# 時區處理
+pytz>=2023.3
+
+# 環境變數管理 (用於GUI)
+python-dotenv>=1.0.0
+
+# 文件監控 (用於GUI橋接)
+watchdog>=3.0.0
+
+# GUI框架 (內建tkinter，但某些系統可能需要額外安裝)
+# tkinter (通常隨Python安裝)
+
+# 日期時間處理 (Python內建)
+# datetime
+
+# JSON處理 (Python內建)
+# json
+
+# 異步IO (Python內建)
+# asyncio
+
+# 日誌系統 (Python內建)
+# logging
+
+# 正則表達式 (Python內建)
+# re
+
+# 檔案系統操作 (Python內建)
+# os, pathlib
+
+# 線程處理 (Python內建)
+# threading
+
+# 數據驗證 (Python內建)
+# typing

@@ -1,24 +1,117 @@
-# Python
+# ====================
+# 個人資訊和敏感檔案
+# ====================
+
+# Telegram Session 檔案（包含個人登入資訊）
+*.session
+*.session-journal
+
+# 配置檔案（包含 API 金鑰和個人資訊）
+.env
+data/settings.json
+
+# ====================
+# 資料檔案和日誌
+# ====================
+
+# 日誌檔案
+*.log
+data/logs/
+telegram_bot.log
+gui_log_*.txt
+
+# 資料庫和歷史記錄
+data/broadcast_history.json
+data/scheduler_execution_records.json
+data/admins.json
+
+# 備份檔案
+data/*.backup.*
+data/*/*.backup.*
+
+# ====================
+# Python 相關
+# ====================
+
+# Byte-compiled / optimized / DLL files
 __pycache__/
-*.pyc
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# ====================
+# 作業系統相關
+# ====================
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+.directory
+
+# ====================
+# IDE 和編輯器
+# ====================
 
 # VSCode
 .vscode/
+*.code-workspace
 
-# 環境設定
-.env
+# PyCharm
+.idea/
 
-# Telegram session
-userbot.session
-userbot.session-journal
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# ====================
+# 臨時檔案
+# ====================
+
+# 臨時檔案
+*.tmp
+*.temp
+tmp/
+temp/
 
 # 備份檔案
 backup/
 *.bak
-
-# 系統檔案
-.DS_Store
-Thumbs.db
-
-# Log files
-bot.log
+*.backup
